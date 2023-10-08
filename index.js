@@ -7,6 +7,9 @@ const middleware= require("./middleware/middleware")
 const app=express();  
 dotenv.config()
 app.use(cors());
+// app.use(cors());
+
+
 const userRoutes = require ("./routes/user");
 const postRoutes = require ("./routes/post");
 

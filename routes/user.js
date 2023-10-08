@@ -5,6 +5,9 @@ const { body,validationResult } = require("express-validator");
 const bcrypt = require("bcrypt");
 const jwt = require ("jsonwebtoken");
 // const secret = process.env.SECRET;
+
+
+
 const secret ="RESTAPI";
 router.get("/",(req,res)=>{   
     res.json({

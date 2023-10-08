@@ -1,6 +1,9 @@
 const User = require("../models/user");
 const jwt = require ("jsonwebtoken");
 
+// data
+
+
 const secret="RESTAPI";
 
 const middleware = ( req,res,next)=>{
